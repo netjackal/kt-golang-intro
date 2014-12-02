@@ -2,9 +2,14 @@ package main
 
 import "fmt"
 
+const (
+	message = "Hello World! The answer is %d\n"
+)
+
+var (
+	answer = 42
+)
+
 func main() {
-	// var message string
-	message := "Hello World %d"
-	answer := 42
 	fmt.Printf(message, answer)
 }
